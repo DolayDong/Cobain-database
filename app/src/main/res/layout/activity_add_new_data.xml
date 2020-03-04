@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewData">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/e_text_nama_mahasiswa"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="19dp"
+        android:gravity="center_horizontal"
+        android:text="Add Data"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/e_text_nama_mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/e_text_nim"
+        android:layout_marginBottom="28dp"
+        android:hint="masukkan nama"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/e_text_nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/e_text_nama_kampus"
+        android:layout_marginBottom="28dp"
+        android:hint="masukkan nim"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/e_text_nama_kampus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_add_data"
+        android:layout_marginBottom="28dp"
+        android:hint="masukkan nama kampus"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/button_add_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_back"
+        android:layout_marginBottom="26dp"
+        android:text="Add Data" />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="187dp"
+        android:text="Back" />
+
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SeeBiodata">
+
+    <TextView
+        android:id="@+id/tv_judul_biodata_mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_label_nama_mahasiswa"
+        android:layout_marginBottom="44dp"
+        android:gravity="center_horizontal"
+        android:text="Biodata Mahasiswa"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tv_label_nama_mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_nama_mahasiswa"
+        android:layout_marginBottom="33dp"
+        android:text="Nama Mahasiswa" />
+
+    <TextView
+        android:id="@+id/tv_nama_mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_label_nim_mahasiswa"
+        android:layout_marginBottom="29dp"
+        android:text="Nama Mahasiswa" />
+
+    <TextView
+        android:id="@+id/tv_label_nim_mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_nim_mahasiswa"
+        android:layout_marginBottom="27dp"
+        android:text="Nim" />
+
+    <TextView
+        android:id="@+id/tv_nim_mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_label_nama_kampus"
+        android:layout_marginBottom="28dp"
+        android:text="Nim" />
+
+    <TextView
+        android:id="@+id/tv_label_nama_kampus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_nama_kampus"
+        android:layout_marginBottom="30dp"
+        android:text="Nama Kampus" />
+
+    <TextView
+        android:id="@+id/tv_nama_kampus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="225dp"
+        android:text="Nama Kampus" />
+</RelativeLayout>
